@@ -1,22 +1,27 @@
-package demo.jiaxin.common;
+package demo.jiaxin.base;
 
 import java.io.Serializable;
 
+/**
+ * ç»Ÿä¸€è¿”å›bean
+ * @author gongjiaxin
+ * @param <T>
+ */
 public class ResultBean<T> implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	// ³É¹¦×´Ì¬Âğ
+	// æˆåŠŸè¿”å›ç 
 	public static final int SUCCESS = 0;
-	// Ê§°Ü×´Ì¬Âë
+	// å¤±è´¥è¿”å›ç 
 	public static final int FAIL = 1;
-	// ÎŞÈ¨ÏŞ×´Ì¬Âë
+	// æ— æƒé™è¿”å›ç 
 	public static final int NO_PERMISSION = 2;
 	
-	// ·µ»ØÌáÊ¾
+	// è¿”å›è¯´æ˜
 	private String msg = "success";
-	// ·µ»ØÂë
+	// è¿”å›ç 
 	private int code = SUCCESS;
-	// ·µ»ØÊı¾İ
+	// è¿”å›æ•°æ®
 	private T data;
 
 	public ResultBean() {
