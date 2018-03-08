@@ -16,7 +16,6 @@ public class ResultBean<T> implements Serializable {
 	public static final int FAIL = 1;
 	// 无权限返回码
 	public static final int NO_PERMISSION = 2;
-	
 	// 返回说明
 	private String msg = "success";
 	// 返回码
