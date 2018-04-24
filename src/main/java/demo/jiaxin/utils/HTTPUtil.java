@@ -30,7 +30,7 @@ import org.slf4j.LoggerFactory;
 
 
 public class HTTPUtil {
-	/** 普通的连接方式 */
+	/** 普通的连接方式Test */
 	public static int HTTP_CONNECTION_TYPE_COMMON = 1;
 	/** SSL 方式 */
 	public static int HTTP_CONNECTION_TYPE_SSL = 2;
